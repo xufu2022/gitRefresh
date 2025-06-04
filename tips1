@@ -1,0 +1,7 @@
+--gitignore
+if the file exists before -gitignore been created
+  using --git rm --cached Config.cs (for file already exists)
+
+-- git update-index --assume-unchanged Config.cs <don't want to be changed
+
+-- undo changes easily by -- git checkout ReadMe.md (get back last commit content)
